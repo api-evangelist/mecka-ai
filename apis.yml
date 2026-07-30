@@ -1,8 +1,16 @@
 aid: mecka-ai
 name: Mecka AI
-description: 'Mecka AI is a company surfaced as a portfolio company of forerunner-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Mecka AI is the data and deployment layer for physical AI — it captures,
+  structures, and evaluates real-world human and robot activity into datasets that
+  robotics and embodied-AI teams can train on. Rather than building robots, Mecka
+  positions itself as the integrator of the robotics ecosystem, plugging into hardware
+  makers, frontier model labs, and commercial partners and owning the last-mile data,
+  annotation, QA, and evaluation layer between them. Its Egoverse dataset captures
+  large-scale first-person (egocentric) human activity across tasks and environments,
+  and a companion iOS app lets teams collect task-specific data at scale. Mecka is
+  backed by Forerunner Ventures and raised a $60M Series A in 2026. As of this pass
+  Mecka publishes a marketing site, an iOS data-collection app, and the Egoverse data
+  platform, but no public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/mecka-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,31 @@ x-backed-by:
 - forerunner-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.mecka.ai/og.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Physical AI
+- Robotics
+- Embodied AI
+- Training Data
+- Datasets
+- Machine Learning
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mecka-ai-domain-security.yml
 - type: Website
   url: https://mecka.ai
+- type: PrivacyPolicy
+  url: https://mecka.ai/privacy
+- type: Platform
+  name: Egoverse
+  url: https://egoverse.ai/
+- type: MobileApp
+  name: Mecka for iOS
+  url: https://apps.apple.com/us/app/mecka/id6758835773
+- type: Careers
+  url: https://mecka.ai/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mecka-ai
+- type: Twitter
+  url: https://x.com/MeckaAI
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
