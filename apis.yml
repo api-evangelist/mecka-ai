@@ -52,8 +52,8 @@ tags:
 - Embodied AI
 - Training Data
 - Datasets
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 tags_raw:
 - Company
 - Ai
@@ -64,6 +64,8 @@ tags_raw:
 - Datasets
 - Machine Learning
 - Computer Vision
+- Machine-Learning
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
